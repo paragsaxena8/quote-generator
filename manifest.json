@@ -1,0 +1,17 @@
+{
+    "name": "IQuote Gen",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Motivates you whenever you think about giving up",
+    "action": {
+        "default_title": "Click to get Motivated 🔥",
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "icons": {
+        "32": "icons/32.png",
+        "180": "icons/180.png",
+        "192": "icons/192.png",
+        "512": "icons/512.png"
+    }
+}

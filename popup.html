@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quote box extenstion">
+    <title>Quote Box</title>
+    <style>
+        * {
+            font-family: 'Consolas', 'Courier New', Courier, monospace;
+            box-sizing: border-box;
+        }
+
+        .quote_box {
+            min-height: 100px;
+            min-width: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1ch;
+            background-color: teal;
+            border-radius: 3px;
+        }
+
+        .text {
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+            margin: 5px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="quote_box">
+        <span class="text text-center" id="quote"></span>
+        <a href="https://twitter.com/intent/tweet?text=" target="_blank" id="tweetLink">
+            <img id="twitter-image" alt="shareQuote"
+                src="https://cdn.cms-twdigitalassets.com/content/dam/developer-twitter/images/Twitter_logo_blue_32.png" /></a>
+    </div>
+    <script src="content.js" defer></script>
+</body>
+
+</html>
